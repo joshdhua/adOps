@@ -1,7 +1,7 @@
 # Ad Ops tool instructions:
 
 Step 1:
-git clone https://github.com/joshdhua/adOps.git
+run: git clone https://github.com/joshdhua/adOps.git
 or unzip the file if download directly
 
 Step 2:
