@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ad Ops Utility</title>
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+		<h1>Ad Operations Helper Tool 1.0</h1>
+		<b>Create contract name and Line item names</b><br/>
+                <i>*This is for general purpose only, always double check before copying them!</i><br/><br/>
+		Product: <input type="text" id="productText" value="" size="20">
+		<br /><br />
+		Platform: <input type="text" id="platformText" value="" size="10">
+		<br /><br />
+		Brand | End Customer: <input type="text" id="brandText" value="" size="20">
+		<br /><br />
+		Campaign name: <input type="text" id="campaignText" value="" size="20">
+		<br /><br />
+		IO number: <input type="text" id="ioText" value="" size="10">
+		<br /><br />
+		Number of line items (0-99): <input type="text" id="numLineItems" value="" size="1">
+		<br /><br />
+		<div id ="div1">
+			<button onclick="removeAllWhiteSpaces()">Generate</button>
+		    <button onclick="reset()">Clear</button>
+		</div>
+		<p id="contractName"></p>
+		<p id="noSpaceString"></p>
+		<script src="main.js"></script>
+	</body>
+</html>
