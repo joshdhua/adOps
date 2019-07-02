@@ -16,7 +16,7 @@ IO number
 Number of lines
 
 Step 4:
-click the button <Generate> to get the list of contract name and line name(s)
+click the button <Generate> to get the contract name and a list of line item name(s)
   
 Step 5:
 click the button <Clear> to remove any previously entered data
